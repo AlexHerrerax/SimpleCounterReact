@@ -5,11 +5,7 @@ import App from './App';
 import { getAllByAltText } from '@testing-library/dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
-
 let contador=0
-
-
 
 setInterval( function () {
     let a=Math.floor(contador);
